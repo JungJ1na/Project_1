@@ -1,0 +1,491 @@
+/*@charset "UTF-8";*/
+
+
+/*section{*/
+/*	display: flex;*/
+/*	flex-direction: column;*/
+/*	height: 100vh;*/
+/*}*/
+
+/*!*.sub_img{*!*/
+/*!*	display: flex;*!*/
+/*!*	justify-content: center;*!*/
+/*!*	align-items: center;*!*/
+/*!*	margin-bottom: 10px;*!*/
+/*!*	height: 300px;*!*/
+/*!*	border: 1px solid black;*!*/
+/*!*}*!*/
+
+/*!*.sub_img img{*!*/
+/*!*	max-width: 100%;*!*/
+/*!*}*!*/
+
+/*.sub_page{*/
+/*	flex:1;*/
+/*	display: flex;*/
+/*	justify-content: center;*/
+/*	align-items: center;*/
+
+/*}*/
+/*article form{*/
+/*	flex:1;*/
+/*	display: flex;*/
+/*	flex-direction: column;*/
+/*}*/
+
+/*article form h2{}*/
+
+/*article form{}*/
+
+/*article form .field{*/
+/*	display: flex;*/
+/*	margin:10px 0;*/
+/*}*/
+/*!*article form .field label{*!*/
+/*!*	flex:1;*!*/
+/*!*}*!*/
+/*article form .field input{*/
+/*	flex:4;*/
+/*	padding: 5px;*/
+/*    border: 1px solid #AAA;*/
+/*}*/
+/*!*.apply_btn {*!*/
+/*!*	background-color: lightblue; !* 배경색 *!!important;*!*/
+/*!*	color: white; !* 글자색 *!!important;*!*/
+/*!*	padding: 10px 20px; !* 안쪽 여백 *!!important;*!*/
+/*!*	border: none; !* 테두리 제거 *!!important;*!*/
+/*!*	border-radius: 5px; !* 둥근 모서리 *!!important;*!*/
+/*!*	font-size: 1em; !* 글씨 크기 *!!important;*!*/
+/*!*	cursor: pointer; !* 마우스 커서 변경 *!!important;*!*/
+/*!*}*!*/
+
+/*!*.apply_btn:hover {*!*/
+/*!*	background-color: lightblue; !* 호버 시 배경색 *!!important;*!*/
+/*!*}*!*/
+
+/*!*article form .btn{*!*/
+/*!*	flex:1;*!*/
+/*!*	display: flex;*!*/
+/*!*	margin:10px 0;*!*/
+/*!*}*!*/
+
+/*!* .btn 영역 설정 *!*/
+/*article form .btn {*/
+/*	display: flex; !* 플렉스 레이아웃으로 버튼 정렬 *!*/
+/*	justify-content: center; !* 가운데 정렬 *!*/
+/*	align-items: center; !* 수직 가운데 정렬 *!*/
+/*	gap: 10px; !* 버튼 간 간격 *!*/
+/*	margin: 20px 0; !* 상하 여백 *!*/
+/*}*/
+
+/*!* 찜하기 버튼 *!*/
+/*.heart {*/
+/*	width: 30px;*/
+/*	height: 30px;*/
+/*	background-color: transparent;*/
+/*	border: none;*/
+/*	cursor: pointer;*/
+/*	display: flex;*/
+/*	justify-content: center;*/
+/*	align-items: center;*/
+/*	padding: 0;*/
+/*}*/
+
+/*.heart img {*/
+/*	width: 30px;*/
+/*	height: 30px;*/
+/*}*/
+
+/* 신청하기 버튼*/
+/*.apply_btn {*/
+/*	background-color: lightsteelblue;*/
+/*	color: white;*/
+/*	padding: 10px 20px;*/
+/*	border: none;*/
+/*	border-radius: 5px;*/
+/*	font-size: 1em;*/
+/*	cursor: pointer;*/
+/*}*/
+
+/*.apply_btn:hover {*/
+/*	background-color: lightslategrey;*/
+/*}*/
+
+/*!* 메인으로 버튼 *!*/
+/*article form .btn input[type="button"] {*/
+/*	width: 100px;*/
+/*	background-color: blue;*/
+/*	color: white;*/
+/*	border: none;*/
+/*	border-radius: 5px;*/
+/*	padding: 10px;*/
+/*	cursor: pointer;*/
+/*}*/
+
+/*article form .btn input[type="button"]:hover {*/
+/*	background-color: darkblue;*/
+/*}*/
+
+/*article form p{*/
+/*	flex:1;*/
+/*	margin:10px 0;*/
+/*}*/
+/*.ta{*/
+/*	flex:1;*/
+/*	display: flex;*/
+/*	margin:10px 0;*/
+/*}*/
+/*.ta textarea{*/
+/*	flex:1;*/
+/*}*/
+/*.rb{*/
+/*	flex:1;*/
+/*	margin:10px 0;*/
+/*	display: flex;*/
+/*	justify-content: center;*/
+/*}*/
+
+
+
+/*.class-detail {*/
+/*	display: flex;*/
+/*	height: 400px;*/
+/*	flex-wrap: wrap;*/
+/*	margin: 20px;*/
+/*	padding: 20px;*/
+/*	border: 1px solid #ddd;*/
+/*	border-radius: 10px;*/
+/*	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.image-section {*/
+/*	flex: 1;*/
+/*	min-width: 300px;*/
+/*}*/
+
+/*.image-section img {*/
+/*	width: 100%;*/
+/*	height: auto;*/
+/*	border-radius: 10px;*/
+/*}*/
+
+/*.info-section {*/
+/*	flex: 2;*/
+/*	display: flex;*/
+/*	flex-direction: column;*/
+/*	justify-content: space-between;*/
+/*}*/
+
+/*.info-section h2 {*/
+/*	font-size: 2em;*/
+/*	margin: 0;*/
+/*}*/
+
+/*.info-section .description {*/
+/*	margin: 10px 0;*/
+/*	font-size: 1.2em;*/
+/*	color: #555;*/
+/*}*/
+
+/*.info-section .date,*/
+/*.info-section .price {*/
+/*	font-size: 1.1em;*/
+/*	margin: 5px 0;*/
+/*}*/
+
+/*.button-group {*/
+/*	margin-top: 20px;*/
+/*}*/
+
+/*.button-group button {*/
+/*	padding: 10px 20px;*/
+/*	font-size: 1em;*/
+/*	border: none;*/
+/*	border-radius: 5px;*/
+/*	margin-right: 10px;*/
+/*	cursor: pointer;*/
+/*}*/
+
+/*.enroll-btn {*/
+/*	background-color: #007BFF;*/
+/*	color: white;*/
+/*}*/
+
+/*.cart-btn {*/
+/*	background-color: #FFC107;*/
+/*	color: white;*/
+/*}*/
+
+/*.main-btn {*/
+/*	background-color: #6C757D;*/
+/*	color: white;*/
+/*}*/
+
+/*button:hover {*/
+/*	opacity: 0.8;*/
+/*}*/
+
+/*footer {*/
+/*	text-align: center;*/
+/*	padding: 10px;*/
+/*	background-color: #f8f9fa;*/
+/*	border-top: 1px solid #ddd;*/
+/*}*/
+/*!* 하단 *!*/
+
+/*.class-detail {*/
+/*	display: flex;*/
+/*	flex-wrap: wrap;*/
+/*	margin: 20px;*/
+/*	padding: 20px;*/
+/*	border: 1px solid #ddd;*/
+/*	border-radius: 10px;*/
+/*	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.image-section {*/
+/*	flex: 1;*/
+/*	min-width: 300px;*/
+/*	margin-right: 20px;*/
+/*}*/
+
+/*.image-section img {*/
+/*	width: 100%;*/
+/*	height: auto;*/
+/*	border-radius: 10px;*/
+/*}*/
+
+/*.info-section {*/
+/*	flex: 2;*/
+/*	display: flex;*/
+/*	flex-direction: column;*/
+/*	justify-content: space-between;*/
+/*}*/
+
+/*.info-section h2 {*/
+/*	font-size: 2em;*/
+/*	margin: 0;*/
+/*}*/
+
+/*.info-section .description {*/
+/*	margin: 10px 0;*/
+/*	font-size: 1.2em;*/
+/*	color: #555;*/
+/*}*/
+
+/*.info-section .date,*/
+/*.info-section .price {*/
+/*	font-size: 1.1em;*/
+/*	margin: 5px 0;*/
+/*}*/
+
+/*.button-group {*/
+/*	margin-top: 20px;*/
+/*}*/
+
+/*.button-group button {*/
+/*	padding: 10px 20px;*/
+/*	font-size: 1em;*/
+/*	border: none;*/
+/*	border-radius: 5px;*/
+/*	margin-right: 10px;*/
+/*	cursor: pointer;*/
+/*}*/
+
+/*.enroll-btn {*/
+/*	background-color: #007BFF;*/
+/*	color: white;*/
+/*}*/
+
+/*.cart-btn {*/
+/*	background-color: #FFC107;*/
+/*	color: white;*/
+/*}*/
+
+/*.main-btn {*/
+/*	background-color: #6C757D;*/
+/*	color: white;*/
+/*}*/
+
+/*button:hover {*/
+/*	opacity: 0.8;*/
+/*}*/
+
+/*!* 하단 상세 정보 *!*/
+/*.lower-section {*/
+/*	margin-top: 30px;*/
+/*	padding: 20px;*/
+/*	background-color: #f9f9f9;*/
+/*	border-radius: 10px;*/
+/*	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.details h3 {*/
+/*	color: #333;*/
+/*	margin-top: 0;*/
+/*}*/
+
+/*.details p, .details ul {*/
+/*	font-size: 1em;*/
+/*	color: #555;*/
+/*}*/
+
+/*.details ul {*/
+/*	padding-left: 20px;*/
+/*	list-style-type: disc;*/
+/*}*/
+
+.class-detail {
+	display: flex;
+	justify-content: center; /* 콘텐츠를 수평 중앙 배치 */
+	align-items: center; /* 콘텐츠를 수직 중앙 배치 */
+	height: 100vh; /* 뷰포트 높이를 100%로 설정 */
+	height: 500px; /* 높이를 조정하여 더 넉넉하게 */
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff; /* 배경색 추가 */
+}
+
+.image-section {
+	flex: 1;
+	min-width: 300px;
+	max-width: 50%;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center; /* 이미지 중앙 정렬 */
+	align-items: center;
+	border: 1px dotted red;
+}
+
+.image-section img {
+	max-width: 100%;
+	max-height: 100%; /* 비율 유지하며 이미지 맞춤 */
+	border-radius: 10px;
+	object-fit: cover; /* 이미지 잘림 방지 */
+}
+
+.info-section {
+	flex: 1;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /* 공간 균등 분배 */
+	padding: 20px;
+	border: 1px dotted red;
+}
+
+.info-section h2 {
+	font-size: 2em;
+	margin: 0;
+	color: #333;
+}
+
+.info-section .description {
+	margin: 15px 0;
+	font-size: 1.2em;
+	line-height: 1.6;
+	color: #555;
+}
+
+.info-section .date,
+.info-section .price {
+	font-size: 1.1em;
+	margin: 10px 0;
+	color: #777;
+}
+
+.button-group {
+	display: flex;
+	gap: 10px; /* 버튼 간 간격 */
+	justify-content: center; /* 버튼 가로 중앙 배치 */
+	margin-top: 20px;
+	flex-wrap: wrap; /* 버튼이 화면 크기에 맞게 줄바꿈되도록 설정 */
+}
+
+.button-group button {
+	padding: 10px 20px; /* 기본 여백 */
+	font-size: 1em; /* 기본 글꼴 크기 */
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	width: auto; /* 자동 너비 */
+	box-sizing: border-box; /* padding과 border 포함 크기 계산 */
+}
+
+/* 버튼 색상 */
+.enroll-btn {
+	background-color: #007BFF;
+	color: white;
+}
+
+.cart-btn {
+	background-color: #FFC107;
+	color: white;
+}
+
+.main-btn {
+	background-color: #6C757D;
+	color: white;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+/* 하단 상세 정보 섹션 */
+.lower-section {
+	margin-top: 30px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details h3 {
+	color: #333;
+	margin-top: 0;
+}
+
+.details p,
+.details ul {
+	font-size: 1em;
+	color: #555;
+}
+
+.details ul {
+	padding-left: 20px;
+	list-style-type: disc;
+}
+
+.map {
+	display: flex;
+	justify-content: center; /* 가로 중앙 정렬 */
+	align-items: center;     /* 세로 중앙 정렬 */
+	margin-top: 20px;        /* 지도와 다른 내용 사이의 간격 */
+	width: 100%;             /* 지도 너비를 부모의 100%로 설정 */
+}
+
+
+/* 반응형 디자인 적용 */
+@media (max-width: 768px) {
+	.button-group button {
+		padding: 0.8em 1.5em; /* 여백 축소 */
+		font-size: 0.9em; /* 글꼴 크기 축소 */
+		max-width: 150px; /* 최대 너비 축소 */
+	}
+}
+
+@media (max-width: 480px) {
+	.button-group {
+		flex-direction: column; /* 작은 화면에서는 버튼 세로 정렬 */
+		gap: 10px;
+	}
+	.button-group button {
+		width: 100%; /* 버튼이 부모 요소 너비를 채우도록 설정 */
+		max-width: unset; /* 최대 너비 제한 해제 */
+	}
+}

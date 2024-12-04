@@ -1,0 +1,174 @@
+/*@charset "UTF-8";*/
+
+/*!* product.css *!*/
+
+
+
+
+/*.categoryproducts{*/
+/*	display: flex;	flex-wrap: wrap;	border:1px solid red;	justify-content: flex-start;*/
+/*}*/
+
+/*.categoryitem{*/
+/*	margin: 15px 10px;		display: flex;*/
+/*	flex-direction: column;	 align-items: center;	justify-content: space-between;	 */
+/*	*/
+/*}*/
+
+/*.categoryitem img{*/
+/*	width:220px;	 height:220px;border:1px solid black;*/
+/*}*/
+
+/*.categoryitem div{*/
+/*	color:silver;	 font-weight: bold; margin-top:10px;*/
+/*}*/
+
+/*.itemdetail-img-title{*/
+/*	display: flex;*/
+/*	justify-content: space-around;*/
+/*}*/
+/*!* 가격과 신청하기 버튼이 포함된 div *!*/
+/*.apply_btn_container {*/
+/*	margin-top: 20px; !* 가격과 버튼 사이 간격 *!*/
+/*	text-align: center; !* 버튼 가운데 정렬 *!*/
+/*}*/
+
+/*.apply_btn {*/
+/*	display: inline-block; !* 버튼을 블록처럼 보이게 *!*/
+/*	width: 100%; !* 버튼을 부모 너비에 맞게 *!*/
+/*	background-color: lightblue; !* 배경색 *!*/
+/*	color: white; !* 글자색 *!*/
+/*	padding: 15px; !* 여백 *!*/
+/*	border: none; !* 테두리 제거 *!*/
+/*	border-radius: 5px; !* 둥근 모서리 *!*/
+/*	font-size: 1.2em; !* 글자 크기 *!*/
+/*	cursor: pointer; !* 마우스 커서 변경 *!*/
+/*}*/
+
+/*.apply_btn:hover {*/
+/*	background-color: darkblue; !* 호버 시 배경색 *!*/
+/*}*/
+
+/*.itemdetail-img-title div:first-child{*/
+/*	width:400px;*/
+/*	margin:10px;*/
+/*	*/
+/*}*/
+/*.itemdetail-img-title div:first-child img{*/
+/*	width:100%;*/
+/*}*/
+
+/*.itemdetail-img-title div:last-child{*/
+/*	width:400px;*/
+/*	margin:10px;*/
+/*	border:1px solid black;*/
+/*	padding:10px;*/
+/*	background-color: silver;*/
+/*	padding:20px;*/
+/*	font-weight:bold;*/
+/*	font-size:1.5em;*/
+/*}*/
+
+/*.itemdetail-content{*/
+/*	flex:1;*/
+/*}*/
+
+
+/* product.css */
+
+.categoryproducts {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid red;
+	justify-content: flex-start;
+}
+
+.categoryitem {
+	margin: 15px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.categoryitem img {
+	width: 220px;
+	height: 220px;
+	border: 1px solid black;
+}
+
+.categoryitem div {
+	color: silver;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.itemdetail-img-title {
+	display: flex;
+	justify-content: space-around; /* 자식 div들이 좌우로 배치됨 */
+	border: 1px solid blue;
+}
+.title-content{
+	display: flex;
+	border: 1px solid red;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 300px;
+}
+#title{
+	display: flex;
+	border: 1px dotted red;
+}
+#content{
+	border: 1px dotted blue;
+	height: 80%;
+}
+#itemdetail{
+	border: 1px solid red;
+}
+#product-detail{
+	border: 1px solid plum;
+}
+/*.itemdetail-img-title div:first-child {*/
+/*	width: 40%; !* 비율로 조정 *!*/
+/*	margin: 10px;*/
+/*}*/
+
+/*.itemdetail-img-title div:first-child img {*/
+/*	width: 100%; !* 부모 div에 맞게 이미지 크기 조정 *!*/
+/*}*/
+
+/*.itemdetail-img-title div:last-child {*/
+/*	width: 40%; !* 비율로 조정 *!*/
+/*	margin: 10px;*/
+/*	border: 1px solid black;*/
+/*	padding: 20px; !* padding 정리 *!*/
+/*	background-color: silver;*/
+/*	font-weight: bold;*/
+/*	font-size: 1.5em;*/
+/*}*/
+
+/*.title {*/
+/*	flex: 1;*/
+/*}*/
+
+/* 가격과 신청하기 버튼이 포함된 div */
+/*.apply_btn_container {*/
+/*	margin-top: 20px; !* 가격과 버튼 사이 간격 *!*/
+/*	text-align: center; !* 버튼 가운데 정렬 *!*/
+/*}*/
+
+/*.apply_btn {*/
+/*	display: block; !* display block으로 변경 *!*/
+/*	width: 40px;*/
+/*	background-color: lightblue; !* 배경색 *!*/
+/*	color: white; !* 글자색 *!*/
+/*	padding: 15px 20px; !* 여백 *!*/
+/*	border-radius: 5px; !* 둥근 모서리 *!*/
+/*	font-size: 1em; !* 글자 크기 *!*/
+/*	cursor: pointer; !* 마우스 커서 변경 *!*/
+/*}*/
+
+/*.apply_btn:hover {*/
+/*	background-color: darkblue; !* 호버 시 배경색 *!*/
+/*}*/
